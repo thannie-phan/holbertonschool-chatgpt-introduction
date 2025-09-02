@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 import sys
 
-for argument in sys.argv[1:]:
-    print(argument)
+for args in range sys.argv[1:]:
+    print(args)
