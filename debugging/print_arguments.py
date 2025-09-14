@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import sys
 
-for args in range sys.argv[1:]:
-    print(args)
+for i in range(len(sys.argv)):
+    print("{}".format(sys.argv[i]))
+
